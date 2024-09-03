@@ -7,7 +7,7 @@ from src.CancerPrediction.entity.config_entity import (DataIngestionConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
 CONFIG_FILE_PATH = "config/config.yaml"
-PARAMS_FILE_PATH = "config/params.yaml"
+PARAMS_FILE_PATH = "params.yaml"
 
 class ConfigurationManager:
     def __init__(
